@@ -30,7 +30,7 @@ Werkzeug
 pymysql
 pandas
 joblib
+sklearn
 scipy
 numpy
 scikit-learn
-sklearn
