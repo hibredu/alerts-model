@@ -187,8 +187,11 @@ def topicSubjectAverageAlerts():
 def create_alerts():
     alerts = []
 
-    alerts += finalYearAverageAlerts()
-    alerts += subjectAverageAlerts()
-    alerts += topicSubjectAverageAlerts()
+    try:
+        alerts += finalYearAverageAlerts()
+        alerts += subjectAverageAlerts()
+        alerts += topicSubjectAverageAlerts()
+    except Exception as e:
+        print(e)
 
     return alerts
