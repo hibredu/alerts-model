@@ -1,8 +1,13 @@
+﻿pandas==1.0.4
+joblib==0.11
+scipy
+numpy
+scikit-learn==0.24.2
+sklearn
 chardet
 click
 cryptography
 distlib
-flask_cors
 et-xmlfile
 filelock
 Flask
@@ -29,9 +34,3 @@ six
 urllib3
 Werkzeug
 pymysql
-pandas
-joblib
-scipy
-numpy
-scikit-learn==0.24.2
-sklearn
